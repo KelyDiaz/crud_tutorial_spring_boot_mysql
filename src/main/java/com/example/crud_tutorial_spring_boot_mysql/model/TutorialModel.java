@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@Table()
+@Table("tutorial")
 public class TutorialModel {
 
     @Id
@@ -35,6 +35,4 @@ public class TutorialModel {
     public String toString() {
         return "Tutorial [id=" + id + ", title=" + title + ", desc=" + description + ", published=" + published + "]";
     }
-
-
 }
